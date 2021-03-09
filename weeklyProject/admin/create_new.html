@@ -7,45 +7,46 @@
     <title>Document</title>
 </head>
 <body>
-    <a href="..//index.html">Back to home page</a>
+    <form action="../index.html" method="GET">
+    <a href="../index.html">Back to home page</a>
     <br/>
     <fieldset>
         <legend>Top Headline</legend>
-        <label>Headline text: <input type="text" name="headline text"></label>
+        <label for="headtext">Headline text: <input type="text" id="headtext" name="headtext"></label>
     </fieldset>
     <br/>
     <fieldset>
         <legend>Images</legend>
-        <label>Image 1:<input type="file" name="image1"></label>
+        <label for="image1">Image 1:<input type="file" id="image1" name="image1"></label>
         <br/>
-        <label>Image 2:<input type="file" name="image2"></label>
+        <label for="image2">Image 2:<input type="file" id="image2" name="image2"></label>
         <br/>
-        <label>Image 3:<input type="file" name="image3"></label>
+        <label for="image3">Image 3:<input type="file" id="image3" name="image3"></label>
     </fieldset>
     <br/>
     <fieldset>
         <legend>Reward</legend>
-        <label>Reward money: <input type="number" name="reword"></label>
+        <label for="rewmoney">Reward money: <input type="number" id="rewmoney" name="rewmoney"></label>
     </fieldset>
     <fieldset>
         <legend>Reward :</legend>
-        <label>Aliases : <br/> <input type="text" name="aliases"></label>
+        <label for="alias">Aliases : <br/> <input type="text" id="alias" name="alias"></label>
         <br/>
-        <label>Birth : <br/> <input type="number" name="birth"></label>
+        <label for="birth">Birth : <br/> <input type="date" id="birth" name="birth"></label>
         <br/>
-        <label>Hair : <br/> <input type="text" name="hair"></label>
+        <label for="hair">Hair : <br/> <input type="text" id="hair" name="hair"></label>
         <br/>
-        <label>Eyes : <br/> <input type="text" name="eyes"></label>
+        <label for="eyes">Eyes : <br/> <input type="text" id="eyes" name="eyes"></label>
         <br/>
-        <label>Height : <br/> <input type="number" name="height"></label>
+        <label for="height">Height : <br/> <input type="number" id="height" name="height"></label>
         <br/>
-        <label>Weight : <br/> <input type="number" name="weight"></label>
+        <label for="weight" >Weight : <br/> <input type="number" id="weight" name="weight"></label>
         <br/>
-        <label>Sex : <br/> <input type="text" name="sex"></label>
+        <label for="sex">Sex : <br/> <input type="text" id="sex" name="sex"></label>
         <br/>
-        <label>ID Number : <br/> <input type="number" name="id"></label>
+        <label for="idnum">ID Number : <br/> <input type="number" id="idnum" name="idnum"></label>
         <br/>
-        <label>Occupation : <br/> <input type="text" name="occupation"></label>
+        <label for="occupattion">Occupation : <br/> <input type="text" id="occupation" name="occupation"></label>
         <br/>
 
 
@@ -64,6 +65,6 @@
 
 
 
-    
+</form>
 </body>
 </html>
