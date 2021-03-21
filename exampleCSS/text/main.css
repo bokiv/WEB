@@ -1,0 +1,43 @@
+body{
+    font-size: 20px;
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Redressed";
+    src: url(./font/Redressed-Regular.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Ranchers";
+    src: url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+    font-style: normal;
+    font-weight: 100;
+}
+
+
+
+.prvi{
+    font-family: 'Redressed';
+    font-size: 1.5em;
+    font-weight: 100;
+    }
+.drugi{
+    font-family: 'Ranchers';
+    font-style: normal;
+    font-weight: 100;
+}
+.treci{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cetvrti{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+q:first-child{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+span{
+font-weight: lighter;
+font-style: italic;
+}
