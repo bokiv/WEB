@@ -1,0 +1,20 @@
+.prvi{
+    background-color: yellow;
+    border: 5px thick;
+    border-color: red;
+    border-style: dashed;
+}
+.drugi{
+    background-color: yellow;
+    border-color: 5px thick;
+    border-color: green;
+    border-style: solid;
+
+}
+.treci{
+    background-color: yellow;
+    border-color: 5px thick;
+    border-color: red;
+    border-style: dashed;
+
+}

@@ -1,6 +1,12 @@
 .prvi{
-    background-color: yellow;
+    max-width: 300px;
+    background-color: #ffff00;
+    width: 400px;height: 500px;
+    overflow: hidden;
+
 }
 .drugi{
+    max-width: 200px;
     background-color: red;
+    width: 600px;height: 300px;
 }
