@@ -15,6 +15,7 @@
 }
 .fourth{
     cursor: help;
+    
 }
 .fifth{ 
     display: block;
@@ -39,5 +40,5 @@
 }
 .tekst{
     float: left; 
-    margin-left: 44px; 
+    margin-left: 30px; 
   }
