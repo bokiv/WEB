@@ -1,0 +1,71 @@
+.first{
+    width: 200px;
+    height: 200px;
+    background-color:lightcoral;
+}
+.second{
+    width: 200px;
+    height: 200px;
+    background-color:lightsalmon;
+}
+.third{
+    width: 200px;
+    height: 200px;
+    background-color:lightseagreen;
+}
+.container{
+    position: relative;
+}
+.first1{
+    width: 200px;
+    height: 200px;
+    background-color:lightcoral;
+    position: relative;
+    z-index: 1;
+}
+.second1{
+    width: 200px;
+    height: 200px;
+    background-color:lightsalmon;
+    position: relative;
+    margin: -100px 100px;
+    z-index: 2;
+}
+.third1{
+    width: 200px;
+    height: 200px;
+    background-color:lightseagreen;
+    position: relative;
+    margin: -100px 200px;
+    z-index: 3;
+}
+.container1{
+    position: absolute;
+    left: 90%;
+
+}
+    .first2{
+        width: 200px;
+        height: 200px;
+        background-color:lightcoral;
+        position: absolute;
+        margin-right: 5px;
+        z-index: 3;
+    }
+    .second2{
+        width: 200px;
+        height: 200px;
+        background-color:lightsalmon;
+        position: absolute;
+        margin: 100px -100px;
+        z-index: 2;
+    }
+    .third2{
+        width: 200px;
+        height: 200px;
+        background-color:lightseagreen;
+        position: absolute;
+        margin: 200px -200px;
+        z-index: 1;
+    }
+
