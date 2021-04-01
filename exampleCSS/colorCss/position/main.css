@@ -1,0 +1,19 @@
+.container{
+    width: 80vh;
+}
+.first{
+    position: relative;
+    top: 50px;
+    left: 100px;
+    margin-bottom: 30px;
+}
+.second{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+.drugi{
+    position: fixed;
+    bottom: 10px;
+    right: 50px;
+}

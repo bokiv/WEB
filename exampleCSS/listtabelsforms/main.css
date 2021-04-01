@@ -1,0 +1,22 @@
+.prva{
+    list-style-type: circle;
+}
+.druga{
+    list-style-type: square;
+}
+.treca{
+    list-style-type: upper-alpha;
+}
+.cetvrta{
+    list-style-type: upper-roman;
+}
+.peti{
+    width: 200px;
+    list-style-image: url(https://www.flaticon.com/svg/vstatic/svg/751/751427.svg?token=exp=1616855646~hmac=c1b4697e82e7bb163bdea74d82ddbe5f)
+
+}
+.sesti{
+    width: 200px;
+    list-style-image: url(https://www.flaticon.com/svg/vstatic/svg/751/751427.svg?token=exp=1616855646~hmac=c1b4697e82e7bb163bdea74d82ddbe5f);
+    list-style-position: inside;
+}
