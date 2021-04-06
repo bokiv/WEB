@@ -1,0 +1,11 @@
+body{
+    /*background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190628/ourmid/pngtree-geometric-wave-dots-seamless-background-image_265859.jpg);
+    background-attachment: fixed;*/
+    background-image: url(https://cdn.pixabay.com/photo/2014/02/27/16/10/tree-276014__340.jpg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+    background-position: fixed;
+    background-size: cover;
+
+}
