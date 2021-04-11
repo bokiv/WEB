@@ -1,0 +1,222 @@
+
+     * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        width: 100%;
+        margin: 0 auto;    
+    }
+    .h1 {
+        text-align: center;
+        margin: 10px 10px ;
+        font-size: 20px;
+    }
+    #image {
+    width: 90%;
+    border: 1px solid gray;
+    padding: 3px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin: 0 auto;
+    }
+    .nav-bar{
+        margin-top: 30px;
+
+    }
+    .nav{
+        color: black;
+        list-style: none;
+        display: block;
+        
+    }
+    .nav li {
+    list-style-type: none;
+    display: block;
+    padding: 0px;
+    text-align: center;
+    border: 1px solid gray;
+    width: 90%;
+    margin: 0 auto;
+    }
+    .nav a{
+        text-decoration: none;
+        color: black;
+        padding: 0px;
+        text-align: center;
+    }
+    .nav a:hover{
+    background-color: lightskyblue;
+    color: white;
+    display: block;
+    padding: 0px;
+    }
+    .post {
+    width: 100%;
+    padding: 3px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    border: 1px solid gray;
+    }
+    .img{
+    width: 90%;
+    }
+
+    /*Tablet*/
+    
+    @media only screen and (min-width:600px) {
+        .container {
+            position: relative;
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 15px;
+        }
+        .h1 {
+            float: left;
+            margin: 0 auto ;
+            font-size: 20px;
+            margin-top: 15px;
+            margin-left: 15px;
+
+        }
+        #image {
+            width: 90%;
+            border: 1px solid gray;
+            padding: 3px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    
+        .nav {
+            float: right;
+            list-style-type: none;
+            position: absolute;
+            top: 10px;
+            right: 60px;
+            display: inline;
+        }
+        
+        .nav-bar  li {
+            padding: 10px;
+            text-align: center;
+            width: 32%;
+            margin: 0 auto;
+            float: left;
+            border: none;
+        }
+    
+    
+        .nav-bar a{
+            text-decoration: none;
+            color: blue
+        }
+    
+        .nav-bar a:hover{
+            background-color: lightskyblue;
+            color: white;
+            display: inline-block;
+            
+         }
+        .post {
+        float: left;
+        text-align: center;
+        }
+        .post p{
+            padding-top: 25px;
+        }
+        .img {
+            width: 50%;
+            float: left;
+        }
+
+    }   
+
+    /*Desktop*/
+
+    @media only screen and (min-width:1200px) {
+        .container {
+            position: relative;
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 15px;
+        }
+        .h1 {
+            float: left;
+            margin: 0 auto ;
+            font-size: 25px;
+            margin-top: 15px;
+            margin-left: 60px;
+
+        }
+        #image {
+            width: 90%;
+            margin-left: 60px;
+            border: 1px solid gray;
+            padding: 3px;
+            border-radius: 5px;
+            top: 100px;
+            left: 70px;
+            float: left;
+            clear: right;
+        }
+    
+        .nav {
+            float: right;
+            list-style-type: none;
+            position: absolute;
+            top: 10px;
+            right: 60px;
+            display: inline;
+        }
+        
+        .nav-bar  li {
+            padding: 10px;
+            text-align: center;
+            width: 32%;
+            margin: 0 auto;
+            float: left;
+            border: none;
+        }
+    
+    
+        .nav-bar a{
+            text-decoration: none;
+            color: blue
+        }
+    
+        .nav-bar a:hover{
+            background-color: lightskyblue;
+            color: white;
+            display: inline-block;
+            
+         }
+        .post {
+        float: left;
+        text-align: center;
+        display: inline-block;
+        width: 29%;
+        margin-right: 17px;
+        border: none;
+        }
+        .first{
+            margin-left: 60px;
+        }
+        .post p{
+            padding-top: 25px;
+        }
+        .img {
+            width: 100%;
+        }
+    }
+
+
+
+
+
+
+
+

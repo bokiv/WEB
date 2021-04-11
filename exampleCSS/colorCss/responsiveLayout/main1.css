@@ -20,7 +20,7 @@
     clear: right;
 }
 #image {
-    width: 9%;
+    width: 20%;
     border-radius: 50%;
 }
 .naslov {
@@ -30,7 +30,7 @@
 .post {
     width: 36%;
     margin: 1%;
-    border-right: 0.3% black solid;
+    border-right: 3px black solid;
     height: 600px;
     float: left;
     
