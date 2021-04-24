@@ -1,0 +1,570 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+nav {
+    font-family: "Roboto", sans-serif;
+}
+h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+}
+h1 span1 {
+    padding-left: 10px;
+    color: rgb(255,152,1);
+    border: 4px solid rgb(119,119,119);
+    border-right: none;
+}
+h1 span2 {
+    color: rgb(119,119,119);
+    margin-left: 1%;
+}
+.nav-bar {
+    text-align: center;
+    list-style: none;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: rgb(127,194,247);
+    font-weight: 800;
+    color: white;
+    display: block;
+}
+ul li{
+    padding: 10px;
+}
+header {
+    background-image: url(/WEB/ProjectCss/assets/images/banner3.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    font-size: 23px;
+    font-weight: 500;
+}
+.first {
+   padding: 140px 10px;
+}
+.first p{
+    letter-spacing: 5px;
+}
+.first button {
+    background-color:rgb(20,110,180);
+    color: white;
+    border-radius: 30px;
+    padding: 10px 30px;
+    border-color: rgb(20,110,180);
+    font-size: 16px;
+    outline: none;
+    margin-top: 25px;
+    letter-spacing: 2px;
+}
+section{
+    text-align: left;
+    margin:0 50px;
+    width: 90%;
+}
+h2 {
+    text-align: center;
+    font-size: 26px;
+    padding: 10px 0;
+}
+.decoration{
+    content: "";
+    width: 30%;
+    height: 2%;
+    margin-left: 36%;
+}
+h3 {
+    text-align: left;
+    color: rgb(127,194,247);
+    font-size: 22px;
+    padding: 15px 0px;
+}
+.second li {
+    font-family: "fontawesome-webfont";
+    text-align: left;
+    list-style: none;
+    margin-left: 30px;
+    color: gray;
+    list-style-image: url(/WEB/ProjectCss/assets/images/arrow_bullet.png);
+}
+#img{
+    width: 90%;
+}
+section p {
+    width: 90%;
+    font-size: 14px;
+}
+.third {
+    width: 90%;  
+    float: left;  
+    background-color: rgb(127,194,247); 
+    margin: 10px 0;  
+    color: white;                   
+}
+.third img {
+    width: 12%;
+    border: white solid 2px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 10px;
+    float: left;
+    clear: right;
+}
+.third h3 {
+    display: inline-block;
+    color: black;
+    font-size: 16px;
+    padding: 35px 10px;
+}
+.third p {
+    float: left;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+.fourth {
+    clear: left;
+    text-align: center;
+    font-size: 26px;
+    padding-top: 35px;
+}
+.fifth {
+
+    width: 100%;
+    height: 440px;
+    display: inline-block;
+    color: white;
+    margin-left: 0px;
+
+}
+.sixth {
+    background-color: limegreen;
+    padding-top: 50px;
+    width: 50%;
+    height: 50%;
+    list-style: none;
+    color: white;
+    text-align: center;
+    float: left;
+}
+.sixth h3 {
+    color: white;
+    text-align: center;
+}
+.seventh {
+    width: 50%;
+    height: 50%;
+    background-color: crimson;
+    float: left;
+    color: white;
+    clear: right;
+    text-align: center;
+    padding-top: 50px;
+}
+.seventh  h3 {
+    color: white;
+    text-align: center; 
+    
+}
+.seventh .fa-facebook {
+    color: white;
+    padding-right: 10px;
+}
+  .seventh .fa-twitter {
+    color: white;
+    padding-right: 10px;
+  }
+.seventh fa-rss {
+    color: white;
+    padding-right: 10px;
+  }
+  .seventh .fa-vk {
+      color: white;
+      padding-left: 10px;
+  }
+.eight {
+    float: left;
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+}
+.eight h3 {
+    color: white;
+    text-align: center; 
+}
+.eight ul{
+    list-style: none;
+}
+.eight li :first-child{
+    content: "";
+    
+}
+
+.ninth {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(127,194,247);
+    float: left;
+}
+iframe{
+    width: 100%;
+    height: 7%;
+}
+.sirina {
+    width: 100%;
+    margin-left: 0;
+}
+.tenth {
+    width: 95%;
+    margin:10px 10px;
+}
+form div {
+    margin-bottom: 1em;
+}
+div.submit input {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+}
+label.field {
+    display: block;
+    width: 80vh;
+
+}
+input[type="text"] {
+width: 98%;
+border: thin 1px;
+padding: 5px;
+}
+input[type="email"] {
+    width: 98%;
+    border: thin 1px;
+    padding: 5px;    
+}
+input[type="number"] {
+    width: 98%;
+    border: thin 1px;
+    padding: 5px;   
+}
+textarea {
+    width: 98%;
+    height: 150px;
+    box-sizing: border-box;
+    border: thin 1px;
+    padding: 5px;    
+}
+footer {
+    width: 100%;
+    height: 130px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+footer li {
+    display: inline-block;
+    float: left;
+    padding-top: 50px;
+}
+footer ul {
+    padding-left: 15%;
+}
+li :nth-child(6) {
+    clear: right;
+}
+footer p {
+    float: left;
+    padding-left: 26%;
+    padding-top: 2%;
+}
+
+/*Tablet*/
+
+@media only screen and (min-width: 780px) {
+    nav {
+        font-family: "Roboto", sans-serif;
+    }
+    h1{
+        float: left;
+        text-align: left;
+        font-weight: 700;
+        font-size: 32px;
+    }
+    h1 span1 {
+        padding-left: 10px;
+        color: rgb(255,152,1);
+        border: 4px solid white;
+        border-right: none;
+    }
+    h1 span2 {
+        color:white;
+        margin-left: 3%;
+    }
+    .nav-bar {
+        text-align: center;
+        list-style: none;
+        font-weight: 700;
+        color: white;
+        display: inline-block;
+        float: right;
+        background-color: transparent;
+        z-index: 999;
+    }
+    ul li{
+        padding: 10px;
+        float: left;
+    }
+    header {
+        background-size: cover; 
+    }
+    .first {
+       padding: 140px 10px;
+    }
+    .first p{
+        letter-spacing: 5px;
+    }
+  
+    h2 {
+        text-align: center;
+        font-size: 26px;
+        margin-top: 20px;
+        clear: both;
+    }
+    .decoration{
+        content: "";
+        width: 30%;
+        height: 3%;
+    
+    
+    }
+    h3 {
+        text-align: left;
+        color: rgb(127,194,247);
+        font-size: 22px;
+        padding: 15px 0px;
+    
+    }
+    article{
+        display: inline-block;
+        width: 60%;
+        margin-bottom: 6%;
+        float: left;
+    }
+    .second li {
+        width: 50%;
+        font-size: 12px;
+        float:left;
+    }
+    #img{
+        width: 40%;
+        float: left;
+        margin-top: 2%;
+     }
+    section p {
+        width: 90%;
+        font-size: 12px;
+        text-align: left;
+        
+    }
+    
+    
+    #move{
+        width: 160%;
+    }
+    .third {
+        width: 45%;  
+        float: left;  
+        background-color: rgb(127,194,247); 
+        margin: 10px 10px;  
+        color: white;                   
+    }
+    .sixth li {
+       list-style: none;
+       display: block;
+       padding: 10px 30%;
+    }
+    .seventh li{
+        list-style: none;
+        padding-right: 30px;
+        padding-top: 30px;
+    }
+    #house{
+        width: 100%;
+        height: 100%;
+    }
+    iframe{
+        width: 100%;
+        height: 400px;
+    }
+    .sirina {
+        width: 100%;
+        margin-left: 0;
+    }
+    input[type="text"] {
+        width: 32%;
+        float: left;
+        }
+        input[type="email"] {
+            width: 32%;
+            float: left; 
+            margin-left: 8px;  
+        }
+        input[type="number"] {
+            width: 32%;
+            float: left; 
+            margin-left: 8px; 
+        }
+        textarea {
+         margin-top: 20px;  
+        }
+        footer{
+            height: 200px;
+        }
+        footer ul{
+            padding-left: 20%;
+        }
+        footer li{
+            padding-top: 80px;
+        }
+}   
+
+/*Desktop*/
+@media only screen and (min-width: 1200px){
+    h1{
+        margin-left: 15px;
+        font-weight: 500;
+        font-size: 22px;
+        margin-top: 15px;
+    }
+    .nav-bar {
+        font-size: 10px;
+        font-weight: 300;
+      
+    }
+    header {
+        font-size: 32px;
+        white-space: pre-wrap;
+        
+    }
+    br{
+        display: none;
+    }
+    
+    .first p {
+     letter-spacing: 7px;   
+    }
+    .first button {
+        border-radius: 15px;
+        padding: 7px 15px;
+        font-size: 12px;
+        margin-top: 0;
+        margin-left: -100px;
+    }
+    
+    h3 {
+        text-align: left;
+        color: rgb(127,194,247);
+        font-size: 16px;
+        padding: 10px 0px;    
+    }
+    article{
+        float: left;
+        width: 26%;
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+    .decoration{
+        width: 30%;
+        height: 25px;
+        margin-right: 25%;
+    }
+    
+    .second li {
+        width: 100%;
+
+    }
+  
+    section p {
+        width: 80%;
+        font-size: 10px;
+        text-align: left;
+        
+    }
+   #move{
+       width: 75%;
+   }
+ 
+   #desktop h2{
+    margin-right: 8%;
+    margin-top: 8%;
+
+   }
+   #img{
+       width: 24%;
+       margin-top: 5%;
+    
+   }
+   #desktop{
+       width: 90%;
+       margin-left: 10%;
+       display: inline-block;
+    }
+    .third{
+        width: 29%;
+        margin-right: 2%;
+
+    }
+   
+    .sixth, .seventh, .eight, .ninth {
+        width: 25%;
+        height: 100%;
+    }
+    .ninth{
+        clear: right;  
+    }
+    .fifth{
+        content: "";
+        font-size: 13px;
+        height: 220px;
+    }
+    iframe{
+        margin-bottom: 3%;
+    }
+    .sirina{
+        float: left;
+        display: inline-block;
+        margin: 0 0;
+    }
+    .getform{
+        margin-left: 100px;
+    }
+    .footer{
+        font-size: 8px;
+        height: 65%;
+
+    }
+    footer li{
+        font-size: 8px;
+        padding-top: 10%;
+        
+    }
+    footer ul{
+        margin-left: 20%;
+    }
+    footer p{
+        padding-top: 1%;
+        font-size: 8px;
+        float: left;
+        margin-left: 20%;
+
+    }
+}
