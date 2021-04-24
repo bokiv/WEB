@@ -274,6 +274,7 @@ footer li {
     display: inline-block;
     float: left;
     padding-top: 50px;
+    font-size: 12px;
 }
 footer ul {
     padding-left: 15%;
@@ -285,6 +286,7 @@ footer p {
     float: left;
     padding-left: 26%;
     padding-top: 2%;
+    font-size: 12px;
 }
 
 /*Tablet*/
@@ -430,7 +432,7 @@ footer p {
             height: 200px;
         }
         footer ul{
-            padding-left: 20%;
+            padding-left: 15%;
         }
         footer li{
             padding-top: 80px;
@@ -549,7 +551,7 @@ footer p {
     }
     .footer{
         font-size: 8px;
-        height: 65%;
+        height: 30%;
 
     }
     footer li{
@@ -564,7 +566,7 @@ footer p {
         padding-top: 1%;
         font-size: 8px;
         float: left;
-        margin-left: 20%;
+        margin-left: 15%;
 
     }
 }
