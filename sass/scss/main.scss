@@ -1,0 +1,9 @@
+$color:blue;
+$fontsize: 18 px;
+$bg: orange;
+
+p {
+    color: $color;
+    background-color: $bg;
+    font-size: $fontsize;
+}

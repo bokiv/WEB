@@ -1,0 +1,26 @@
+/*mobile*/
+@media (max-width: 576px) {
+    * {
+        margin: 10px;
+    }
+    .row first :nth-col{
+        padding: 5px 0px;
+        padding-left: 10px;
+        column-width: 85%;
+    }
+    .row second :nth-last-child(3){
+        width: 100%;
+
+    }
+    .row third :nth-col{ 
+        width: 100%;
+    }
+    .col  {
+    background-color: lightgray;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    margin:0 10px;
+    margin-left: 10px;
+    }
+
+}
