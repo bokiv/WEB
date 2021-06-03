@@ -1,0 +1,13 @@
+.row {
+  margin: 8px;
+}
+
+.col{
+    background-color: lightgray;
+    border: 1px solid lightgray;
+    padding: 5px 0px;
+    padding-left: 10px;
+    border-radius: 2px;
+    margin:0 10px;
+    margin-left: -2px;
+  }
