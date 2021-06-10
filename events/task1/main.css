@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+    background-color: rgb(7, 44, 74);
+
+}
+button {
+    background-color: rgb(230, 16, 62);
+    padding: 10px;
+    color: white;
+}
+.bg-color{
+    background-color: whitesmoke;
+}
+#automatic{
+    background-color: rgb(221, 203, 41);
+}
