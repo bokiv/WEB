@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: rgb(233, 230, 230);
+}
+
+.chat-area {
+    height: 90vh;
+    background: white;
+    width: 80%;
+    margin: auto;
+    overflow: scroll;
+}
+.form {
+    width: 80%;
+    margin: 20px auto;
+}
+
+#message {
+    display: inline-block;
+    width: 65%;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+#button {
+    width: 32%;
+    color: white;
+    background-color: rgb(230, 16, 62);
+    border-radius: 5px;
+
+}
