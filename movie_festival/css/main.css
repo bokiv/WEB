@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  h1{
+    text-align: center;
+    padding-top: 19px;
+  }
+  .container{
+    display: block;
+    margin: 0 auto;
+    width: 65%;
+    border: solid 1px;
+  }
+  .button {
+    background-color: rgb(80,174,84);
+    display: block;
+    width: 100%;
+    margin: 10px auto ;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  form{
+    border: solid 2px;
+    padding: 10px;
+    margin: 10px;
+  }
+  p{
+    margin-top: 25px;
+    margin-left: 15px;
+  }
+  input{
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  #genre, #movie-select, #program-select { 
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 8px;
+  }
