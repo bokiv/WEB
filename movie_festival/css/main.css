@@ -24,7 +24,7 @@
     font-weight: 500;
   }
   form{
-    border: solid 2px;
+    border: solid 1px;
     padding: 10px;
     margin: 10px;
   }
@@ -38,6 +38,12 @@
     margin-top: 15px;
     margin-bottom: 10px;
     padding: 5px;
+  }
+   .container{
+    display: block;
+    margin: 0 auto;
+    width: 65%;
+    border: solid 1px;
   }
   #genre, #movie-select, #program-select { 
     display: block;
