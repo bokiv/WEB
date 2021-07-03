@@ -1,18 +1,11 @@
 var request = new XMLHttpRequest();
-request.open('GET', 'https://dog.ceo/api/breeds/image/random', true);
-
-request.onload = function() {
-if (request.status >= 200 && request.status < 400) {
-// Success!
-var data = JSON.parse(request.responseText);
-} else {
-// We reached our target server, but it returned an error
-
-}
+request.open("GET", "https://dog.ceo/api/breeds/image/random", true);
+var button = document.querySelector("button");
+button.onclick = function () {
+  var parsedData = JSON.parse(request.responseText);
+  var div = document.querySelector("div");
+  var img = document.createElement("img");
+  img.setAttribute("src", parsedData.message);
+  div.appendChild(img);
 };
-
-request.onerror = function() {
-// There was a connection error of some sort
-};
-
 request.send();
