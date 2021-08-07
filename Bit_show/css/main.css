@@ -1,0 +1,12 @@
+@media (min-width: 768px) {
+  #show {
+    height: 390px;
+    flex: 0 0 auto;
+    width: 80%;
+    text-align: center; }
+
+  .tv-div .col-md-4 {
+    height: 240px;
+    width: 26%; } }
+
+/*# sourceMappingURL=main.css.map */
